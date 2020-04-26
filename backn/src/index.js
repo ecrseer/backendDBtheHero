@@ -11,7 +11,6 @@ const app = expreso();
         } */
     ));
     app.use(expreso.json());
- 
     app.use(caminhar);
     app.use(errors());
 
