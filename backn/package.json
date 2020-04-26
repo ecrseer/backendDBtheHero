@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "cross-env NODE_ENV=test jest",
-    "start": "nodemon src\\servidorPorta.js"
+    "start": "node src\\servidorPorta.js"
   },
   "keywords": [],
   "author": "",
